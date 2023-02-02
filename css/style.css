@@ -42,7 +42,7 @@
         height: 180px;
         line-height: 100px;
         font-size: 50px;
-        background-image: url("ribbon-green.png");
+        background-image: url("../images/ribbon-green.png");
         color: rgb(41, 58, 57);
         margin: 0 auto; /* (바깥)여백 : 상하0, 좌우 알아서 계산. width 값 필수로 넣어야함 */
     }
