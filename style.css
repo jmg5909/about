@@ -91,8 +91,11 @@
 
     @media screen and (max-width : 480px) { /* 미디어의 가로 크기가 480일 떄 */
         #moto {
-            width: 480px;
+            width: 81%;
             background-size: contain;
             background-repeat: no-repeat;
+            height: 80px;
+            line-height: 57px;
+            font-size: 0.925rem;
         }
     }
