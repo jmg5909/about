@@ -39,9 +39,9 @@
 
     #moto {
         width: 1100px;
-        height: 180px;
-        line-height: 110px;
-        font-size: 40px;
+        height: 80px;
+        line-height: 57px;
+        font-size: 33px;
         background-image: url("ribbon-green.png");
         color: rgb(41, 58, 57);
         margin: 0 auto; /* (바깥)여백 : 상하0, 좌우 알아서 계산. width 값 필수로 넣어야함 */
@@ -87,4 +87,12 @@
 
     h2,h3,h4,h5,h6,p { /* h1부터 p까지를 스타일 적용하겠다. 4) 그룹 선택자 */
         margin: 2rem 0; /* web 전용 단위. [1rem(상대단위. 알엠) = 16px(절대단위. 픽셀)] */
+    }
+
+    @media screen and (max-width : 480px) { /* 미디어의 가로 크기가 480일 떄 */
+        #moto {
+            width: 480px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
     }
